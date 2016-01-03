@@ -1,0 +1,28 @@
+{
+  "name": "carnage/watson-zf2",
+  "description": "Zf2 Integration for watson",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Chris Riley",
+      "email": "t.carnage@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5.0",
+    "doctrine/orm": "^2.5.0",
+    "doctrine/doctrine-orm-module": "~0.9.0",
+    "doctrine/doctrine-module": "~0.9.0",
+    "zendframework/zend-log": "^2.5.0",
+    "zendframework/zend-modulemanager": "^2.5.0",
+    "zendframework/zend-mvc": "^2.5.0",
+    "zendframework/zend-servicemanager": "^2.5.0",
+    "carnage/watson": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Carnage\\WatsonZf2\\": "src"
+    }
+  }
+}
