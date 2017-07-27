@@ -12,8 +12,8 @@
   "require": {
     "php": "^5.5.0",
     "doctrine/orm": "^2.5.0",
-    "doctrine/doctrine-orm-module": "~0.8.0",
-    "doctrine/doctrine-module": "~0.8.0",
+    "doctrine/doctrine-orm-module": "~0.8",
+    "doctrine/doctrine-module": "~0.8",
     "zendframework/zend-log": "^2.3.0",
     "zendframework/zend-modulemanager": "^2.3.0",
     "zendframework/zend-mvc": "^2.3.0",
